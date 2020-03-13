@@ -2,14 +2,18 @@ package Com.Pages;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import Com.Excel.Excel_utility;
 
@@ -20,9 +24,9 @@ public class Sauce_About_page {
 	By login=By.xpath("//*[@id=\"login_button_container\"]/div/form/input[3]");
 	By option=By.xpath("//*[@id=\"menu_button_container\"]/div/div[3]/div/button");
 	By About=By.id("about_sidebar_link");
-	By company=By.xpath("//*[@id=\"headerMainNav\"]/div/nav/ul/li[1]/ul[2]/li[5]/div[1]/div/a");
-	By Aboutus=By.xpath("//*[@id=\"headerMainNav\"]/div/nav/ul/li[1]/ul[2]/li[5]/div[2]/div/div/div/ul/li/div/ul/li/div/ul/li[1]/div/ul/li/a");
-	By View_company_fact_sheet=(By.linkText("View company fact sheet"));
+	By company=By.linkText("Company");
+	By career=By.linkText("Careers");
+
 	
 	public void url()
 	{
@@ -50,9 +54,9 @@ public class Sauce_About_page {
 		Thread.sleep(2000);
 		driver.findElement(company).click();
 		Thread.sleep(2000);
-		driver.findElement(Aboutus).click();
-		Thread.sleep(2000);
-		driver.findElement(View_company_fact_sheet).click();
+		driver.findElement(career).click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000)");
 	}
 	public void Screenshot(String path) throws IOException, InterruptedException
 	{
