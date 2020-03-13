@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78790" started-at="2020-03-12T11:42:34 IST" finished-at="2020-03-12T11:43:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78790" started-at="2020-03-12T11:42:34 IST" finished-at="2020-03-12T11:43:53 IST">
+      <class name="Com.Testcases.Selenium_Hq_firefox_Testcase">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Com.Testcases.Selenium_Hq_firefox_Testcase@35d176f7]" name="launch" is-config="true" duration-ms="27390" started-at="2020-03-12T11:43:09 IST" finished-at="2020-03-12T11:43:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Assert()[pri:0, instance:Com.Testcases.Selenium_Hq_firefox_Testcase@35d176f7]" name="Assert" duration-ms="6277" started-at="2020-03-12T11:43:37 IST" finished-at="2020-03-12T11:43:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Com.Testcases.Selenium_Hq_firefox_Testcase@35d176f7]" name="closebrowser" is-config="true" duration-ms="9571" started-at="2020-03-12T11:43:43 IST" finished-at="2020-03-12T11:43:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Com.Testcases.Selenium_Hq_firefox_Testcase -->
+      <class name="Com.Testcases.SeleniumHq_Testcase">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Com.Testcases.SeleniumHq_Testcase@551aa95a]" name="launch" is-config="true" duration-ms="23072" started-at="2020-03-12T11:42:34 IST" finished-at="2020-03-12T11:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Assert()[pri:0, instance:Com.Testcases.SeleniumHq_Testcase@551aa95a]" name="Assert" duration-ms="8760" started-at="2020-03-12T11:42:57 IST" finished-at="2020-03-12T11:43:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Com.Testcases.SeleniumHq_Testcase@551aa95a]" name="closebrowser" is-config="true" duration-ms="3649" started-at="2020-03-12T11:43:06 IST" finished-at="2020-03-12T11:43:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Com.Testcases.SeleniumHq_Testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
