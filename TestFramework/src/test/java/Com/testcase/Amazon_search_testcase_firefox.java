@@ -1,0 +1,32 @@
+package Com.testcase;
+
+import java.io.IOException;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import Com.Baseclass.WrapperClass;
+import Com.pages.Amazon_login_page;
+import Com.pages.Amazon_search_page;
+
+public class Amazon_search_testcase_firefox extends WrapperClass {
+	//launching firefox browser
+	@BeforeClass
+	public void startup() 
+	{
+		launchApplication("firefox","https://www.amazon.in/");	
+	}
+	@Test
+	public void move() throws InterruptedException {
+		Amazon_search_page spage=new Amazon_search_page(driver);
+		spage.movedown("mobiles");
+	}
+	@AfterClass
+	public void close() throws IOException
+	{   screenshot("src\\test\\resources\\Screenshot\\searchfirefox.png");
+		quit();
+	}
+	
+}
+
