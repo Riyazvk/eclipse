@@ -34,6 +34,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/poi-4.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/poi-examples-4.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/poi-excelant-4.1.2.jar"/>
@@ -54,10 +59,5 @@
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/SparseBitSet-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-tests.jar"/>
-	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1218/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
