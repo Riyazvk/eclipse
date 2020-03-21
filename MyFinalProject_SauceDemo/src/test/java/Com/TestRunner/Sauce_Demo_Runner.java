@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/main/resources/Feature/Test.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report"},
-		//tags = {"@TC13_Invalid_partnership_details_in_the_company_field"},
+		tags = {"@TC06_Select_resource_field_in_about_option"},
 		glue = {"Com.Stepdefinition"},
 		monochrome = true
 		)

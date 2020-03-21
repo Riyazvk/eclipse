@@ -115,5 +115,3 @@ When the user open the Sauce_demo Home page
 Then The user login the home page
 Then check Invalid partnership details in the company field
 Then close the browser 
-
-
