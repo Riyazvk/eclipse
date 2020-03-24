@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/main/resources/Feature/demo.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report"},
-		//tags = {"@TC01_Select_resource_field_in_about_option"},
+		tags = {"@TC04_select_solutionfield_in_about_option"},
 		glue = {"Com.stepdefinition"},
 		monochrome = true
 		)
